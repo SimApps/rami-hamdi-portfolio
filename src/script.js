@@ -1,4 +1,4 @@
-// Made by Yago Estévez (Twitter: @yagoestevez.com)
+
 
 
 /***********************
@@ -78,10 +78,10 @@ const Header = props => {
       <div className="moon" />
       <div className="container">
         <h1>
-          <span className="line">I do</span>
-          <span className="line">graphic design</span>
+          <span className="line">I'm an </span>
+          <span className="line">Andoid developper</span>
           <span className="line">
-            <span className="color">&</span> code.
+            <span className="color">&</span> more.
           </span>
         </h1>
         <div className="buttons">
@@ -110,7 +110,7 @@ const About = props => {
             <p className="separator" />
           </div>
           <div className="desc full">
-            <h4 className="subtitle">My name is Yago.</h4>
+            <h4 className="subtitle">My name is Rami.</h4>
             <p>
               I am a web developer and UX designer based in the beautiful west coast of Spain,
               Galicia.
@@ -521,7 +521,7 @@ const Footer = props => {
     <footer>
       <div className="wrapper">
         <h3>THANKS FOR VISITING</h3>
-        <p>© {new Date().getFullYear()} Yago Estévez.</p>
+        <p>© {new Date().getFullYear()} Rami Hamdi.</p>
         <SocialLinks />
       </div>
     </footer>

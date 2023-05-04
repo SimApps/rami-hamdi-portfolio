@@ -48,9 +48,9 @@ const Nav = props => {
     React.createElement(React.Fragment, null, /*#__PURE__*/
     React.createElement("nav", { id: "navbar" }, /*#__PURE__*/
     React.createElement("div", { className: "nav-wrapper" }, /*#__PURE__*/
-    React.createElement("p", { className: "brand" }, "yago", /*#__PURE__*/
+    React.createElement("p", { className: "brand" }, "Rami", /*#__PURE__*/
 
-    React.createElement("strong", null, "est\xE9vez")), /*#__PURE__*/
+    React.createElement("strong", null, "Hamdi")), /*#__PURE__*/
 
     React.createElement("a", {
       onClick: props.toggleMenu,
@@ -78,8 +78,8 @@ const Header = props => {
     React.createElement("div", { className: "moon" }), /*#__PURE__*/
     React.createElement("div", { className: "container" }, /*#__PURE__*/
     React.createElement("h1", null, /*#__PURE__*/
-    React.createElement("span", { className: "line" }, "I'm"), /*#__PURE__*/
-    React.createElement("span", { className: "line" }, "an android developper"), /*#__PURE__*/
+    React.createElement("span", { className: "line" }, "I'm an"), /*#__PURE__*/
+    React.createElement("span", { className: "line" }, "Android Developper"), /*#__PURE__*/
     React.createElement("span", { className: "line" }, /*#__PURE__*/
     React.createElement("span", { className: "color" }, "&"), " More.")), /*#__PURE__*/
 
@@ -111,11 +111,11 @@ const About = props => {
 
     React.createElement("div", { className: "desc full" }, /*#__PURE__*/
     React.createElement("h4", { className: "subtitle" }, "My name is Rami."), /*#__PURE__*/
-    React.createElement("p", null, "I am a Android developer and UX designer based in Tunisia."), /*#__PURE__*/
+    React.createElement("p", null, "I am an android developer, always follow best practices for android application and I am always ready to learn new technologies, methods, and principle as per the project requirements."), /*#__PURE__*/
 
 
 
-    React.createElement("p", null, "I really enjoy solving problems as well as making things pretty and easy to use. I can't stop learning new things; the more, the better. I also love photography, a hobby I'm taking along since the good old film cameras. Oh, and rice with milk; I have a passion for rice with milk!")), /*#__PURE__*/
+    React.createElement("p", null, "I really enjoy solving problems as well as making things pretty and easy to use. I can't stop learning new things; the more, the better. I also have a master degree in qhse, a hobby I'm taking along since the good old film cameras.")), /*#__PURE__*/
 
 
 
