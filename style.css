@@ -574,7 +574,7 @@ a:active {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Silhouette.svg?sanitize=true) bottom left no-repeat;
+  background: url(https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/Silhouette.svg) bottom left no-repeat;
   width: 50%;
   height: 50%;
   opacity: 0;
@@ -607,7 +607,7 @@ a:active {
   top: 0;
   right: 0;
   position: fixed;
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Moon.svg?sanitize=true) right 150% no-repeat;
+  background: url(https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/Moon.svg) right 150% no-repeat;
   background-size: 40% 40%;
   background-attachment: fixed;
   width: 100%;
