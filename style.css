@@ -135,11 +135,11 @@ a:active {
 }
 
 .menu-container::before {
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Stars.svg?sanitize=true);
+  background: url(https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/Stars.svg);
 }
 
 .menu-container::after {
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Trees.svg?sanitize=true) bottom repeat-x;
+  background: url(https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/Trees.svg) bottom repeat-x;
 }
 
 .menu-container.deactive {
@@ -506,7 +506,7 @@ a:active {
 #welcome-section::before {
   content: '';
   position: fixed;
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Stars.svg?sanitize=true);
+  background: url(https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/Stars.svg);
   background-attachment: fixed;
   width: 100%;
   min-height: 100vh;
@@ -540,7 +540,7 @@ a:active {
   position: absolute;
   bottom: -300px;
   left: 0;
-  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Trees.svg?sanitize=true) bottom left repeat-x;
+  background: url(https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/Trees.svg) bottom left repeat-x;
   background-size: cover;
   width: 100%;
   height: 80%;
