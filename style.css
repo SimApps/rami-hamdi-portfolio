@@ -792,7 +792,7 @@ a:active {
  *****************/
 
 #about {
-  height: 100%;
+ height: 100%;
   min-height: 100vh;
   font-size: 1.4rem;
   position: relative;
@@ -802,6 +802,8 @@ a:active {
   z-index: 5;
   background: #fafafa url(https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/about.jpg) center center no-repeat;
   background-attachment: fixed;
+ 
+  
 }
 
 #about .wrapper {
@@ -1097,7 +1099,7 @@ a:active {
  *****************/
 
 #contact {
-  background: #181d23 url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/envelope.svg?sanitize=true) no-repeat right;
+  background: #181d23 url(https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/envelope.svg) no-repeat right;
   -webkit-clip-path: polygon(0 0, 20% 100px, 100% 0, 100% 100%, 0 100%);
           clip-path: polygon(0 0, 20% 100px, 100% 0, 100% 100%, 0 100%);
   color: #fafafa;
