@@ -170,7 +170,7 @@ const Project = props => {
     react: 'fab fa-react',
     vue: 'fab fa-vuejs',
     d3: 'far fa-chart-bar',
-    node: 'fab fa-node'
+    node: 'fab fa-kotlin'
   };
 
   const link = props.link || 'http://';

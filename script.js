@@ -164,12 +164,12 @@ const About = props => {
 
 const Project = props => {
   const tech = {
-    sass: 'fab fa-sass',
-    css: 'fab fa-css3-alt',
-    js: 'fab fa-js-square',
-    react: 'fab fa-react',
-    vue: 'fab fa-vuejs',
-    d3: 'far fa-chart-bar',
+    java: 'fab fa-java',
+    android: 'fab fa-android',
+    js: 'fab fa-js-kotlin',
+    react: 'fab fa-v',
+    vue: 'fab fa-kotlin',
+    d3: 'far fa-chart-kotlin',
     node: 'fab fa-node' };
 
 
@@ -196,7 +196,7 @@ const Project = props => {
     React.createElement("i", { className: "fas fa-external-link-alt" })), /*#__PURE__*/
 
     React.createElement("a", { href: link, target: "_blank", rel: "noopener noreferrer" }, "Try it Live ", /*#__PURE__*/
-    React.createElement("i", { className: "fas fa-external-link-alt" }))))));
+    React.createElement("i", { className: "fab fa-google-play" }))))));
 
 
 
@@ -229,7 +229,7 @@ const Projects = props => {
     React.createElement(Project, {
       title: "Radio FM AM.",
       img: 'https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/radioFmAm.png',
-      tech: "js kotlin xml firebase mvvm",
+      tech: "kotlin xml firebase mvvm",
       link: "https://play.google.com/store/apps/details?id=com.amirami.simapp.radiostations",
       repo: "" }, /*#__PURE__*/
 
@@ -244,7 +244,7 @@ const Projects = props => {
     React.createElement(Project, {
       title: "Prix En Tunisie.",
       img: 'https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/priEnTunisie.png',
-      tech: "js node css",
+      tech: "android",
       link: "https://play.google.com/store/apps/details?id=com.amirami.simapp.priceindicatortunisia",
       repo: "" }, /*#__PURE__*/
 
@@ -259,7 +259,7 @@ const Projects = props => {
     React.createElement(Project, {
       title: "Pro Inventory.",
       img: 'https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/Inventory.png',
-      tech: "js node css",
+      tech: "android java",
       link: "https://play.google.com/store/apps/details?id=com.asmtunis.proinventory",
       repo: "" }, /*#__PURE__*/
 
@@ -272,7 +272,7 @@ const Projects = props => {
     React.createElement(Project, {
       title: "Pro Caisse Mobility.",
       img: 'https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/ProCaisseMobility.png',
-      tech: "js node css",
+      tech: "android java",
       link: "https://play.google.com/store/apps/details?id=com.asmtunis.procaissemobility",
       repo: "" }, /*#__PURE__*/
 
@@ -282,12 +282,12 @@ const Projects = props => {
     React.createElement(Project, {
       title: "Merge pro Caisse Pro Inventory.",
       img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/MetricImperialConverter.jpg',
-      tech: "js node css",
+      tech: "android",
       link: "https://yagoestevez-metric-imperial-converter.glitch.me/",
       repo: "https://github.com/yagoestevez/fcc-metric-imperial-converter/" }, /*#__PURE__*/
 
     React.createElement("small", null, "Built using Kotlin, ktor, DaggerHilt and JetPack Librery."), /*#__PURE__*/
-    React.createElement("p", null, "Another full-stack for converting values from the Internation System of Units (Metric) into the imperial units.")), /*#__PURE__*/
+    React.createElement("p", null, "Another full-stack for converting values from the Internation System of Units (Metric) into the imperial units.")))))); /*#__PURE__*/
 
 
 
@@ -317,9 +317,9 @@ const Contact = props => {
     React.createElement("p", { className: "separator" }), /*#__PURE__*/
     React.createElement("p", { className: "subtitle" }, "Please, use the form below or send an email to ",
     '', /*#__PURE__*/
-    React.createElement("span", { className: "mail" }, "web", /*#__PURE__*/
+    React.createElement("span", { className: "mail" }, "rami.hamdi.2023", /*#__PURE__*/
 
-    React.createElement("i", { className: "fas fa-at at" }), "yagoestevez", /*#__PURE__*/
+    React.createElement("i", { className: "fas fa-at at" }), "gamail", /*#__PURE__*/
 
     React.createElement("i", { className: "fas fa-circle dot" }), "com"), ":")), /*#__PURE__*/
 
@@ -351,7 +351,7 @@ const Footer = props => {
     React.createElement("footer", null, /*#__PURE__*/
     React.createElement("div", { className: "wrapper" }, /*#__PURE__*/
     React.createElement("h3", null, "THANKS FOR VISITING"), /*#__PURE__*/
-    React.createElement("p", null, "\xA9 ", new Date().getFullYear(), " Yago Est\xE9vez."), /*#__PURE__*/
+    React.createElement("p", null, "\xA9 ", new Date().getFullYear(), " Rami Hamdi."), /*#__PURE__*/
     React.createElement(SocialLinks, null))));
 
 
