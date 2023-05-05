@@ -174,7 +174,7 @@ const Project = props => {
 
 
   const link = props.link || 'http://';
-  const repo = props.repo || 'http://';
+   const repo = props.repo || 'http://';
 
   return /*#__PURE__*/(
     React.createElement("div", { className: "project" }, /*#__PURE__*/
@@ -218,9 +218,7 @@ const Projects = props => {
     React.createElement("h3", { className: "title" }, "My Works"), /*#__PURE__*/
     React.createElement("p", { className: "separator" }), /*#__PURE__*/
     React.createElement("p", { className: "subtitle" }, "Here's a list of ", /*#__PURE__*/
-    React.createElement("u", null, "most"), " of the projects I've been working on lately. All of these were built during my coding camp adventure on",
-    ' ', /*#__PURE__*/
-    React.createElement("a", { href: "https://www.freecodecamp.org/", target: "_blank", rel: "noopener noreferrer" }, "freeCodeCamp"), ", where I've been coding for almost 7 months non-stop until I completed all the projects required to get my Full-Stack Developer certification.")), /*#__PURE__*/
+    React.createElement("u", null, "most"), " of the projects I've been working on lately.")), /*#__PURE__*/
 
 
 
@@ -229,16 +227,16 @@ const Projects = props => {
 
     React.createElement("div", { className: "projects-wrapper" }, /*#__PURE__*/
     React.createElement(Project, {
-      title: "Anonymous Message Board.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/AnonMsgBoard.jpg',
-      tech: "js css react node",
-      link: "https://yagoestevez-anon-msg-board.glitch.me/",
-      repo: "https://github.com/yagoestevez/anonymous-message-board" }, /*#__PURE__*/
+      title: "Radio FM AM.",
+      img: 'https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/radioFmAm.png',
+      tech: "js kotlin xml firebase mvvm",
+      link: "https://play.google.com/store/apps/details?id=com.amirami.simapp.radiostations",
+      repo: "" }, /*#__PURE__*/
 
-    React.createElement("small", null, "Built using Node, Express, MongoDB, CSS + Bulma, React.js and React Router."), /*#__PURE__*/
+    React.createElement("small", null, "Built using Kotlin and xml."), /*#__PURE__*/
 
 
-    React.createElement("p", null, "This is a full-stack website that I made which lets the users read and post anonymous messages and replies.")), /*#__PURE__*/
+    React.createElement("p", null, "This application is a great tool to play Radio stations around the world. It also gives the user the ability to record radio station streams and also from custom URL, work as an alarm radio to wake users on their  favorite Radio station, and synchronize favorite stations between different devices..")), /*#__PURE__*/
 
 
 
