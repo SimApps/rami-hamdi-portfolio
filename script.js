@@ -329,7 +329,7 @@ const Contact = props => {
     React.createElement("input", { placeholder: "Name", name: "name", type: "text", required: true }), /*#__PURE__*/
     React.createElement("input", { placeholder: "Email", name: "email", type: "email", required: true }), /*#__PURE__*/
     React.createElement("textarea", { placeholder: "Message", type: "text", name: "message", required: true }), /*#__PURE__*/
-    React.createElement("textarea", { type: "hidden", name: "_next", value: "#" }), /*#__PURE__*/
+    React.createElement("input", { type: "hidden", name: "_next", value: "#" }), /*#__PURE__*/
 
 
     React.createElement("input", { className: "button", id: "submit", value: "Submit", type: "submit" })))));
