@@ -329,7 +329,7 @@ const Contact = props => {
     React.createElement("input", { placeholder: "Name", name: "name", type: "text", required: true }), /*#__PURE__*/
     React.createElement("input", { placeholder: "Email", name: "email", type: "email", required: true }), /*#__PURE__*/
     React.createElement("textarea", { placeholder: "Message", type: "text", name: "message", required: true }), /*#__PURE__*/
-      React.createElement("input", { className: "_next", type: "hidden", name: "_next", value: "https://simapps.github.io/ramihamdi/emailsent" }), /*#__PURE__*/
+      React.createElement("input", { className: "_next", type: "hidden", name: "_next", value: "https://simapps.github.io/ramihamdi/emailsent.html" }), /*#__PURE__*/
     
      React.createElement("input", { className: "_captcha", type: "hidden", name: "_captcha", value: false }), /*#__PURE__*/
     React.createElement("input", { className: "_autoresponse", type: "hidden", name: "_autoresponse", value: "We will contact you soon" }), /*#__PURE__*/
