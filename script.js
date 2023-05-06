@@ -166,15 +166,11 @@ const Project = props => {
   const tech = {
     java: 'fab fa-java',
     android: 'fab fa-android',
-    js: 'fab fa-js-kotlin',
-    react: 'fab fa-v',
-    vue: 'fab fa-kotlin',
-    d3: 'far fa-chart-kotlin',
-    node: 'fab fa-node' };
+    kotlin: 'fab fa-korvue' };
 
 
   const link = props.link || 'http://';
-   const repo = props.repo || 'http://';
+  const repo = props.repo || '';
 
   return /*#__PURE__*/(
     React.createElement("div", { className: "project" }, /*#__PURE__*/
@@ -192,8 +188,8 @@ const Project = props => {
 
     props.children, /*#__PURE__*/
     React.createElement("div", { className: "buttons" }, /*#__PURE__*/
-    React.createElement("a", { href: repo, target: "_blank", rel: "noopener noreferrer" }, "View source ", /*#__PURE__*/
-    React.createElement("i", { className: "fas fa-external-link-alt" })), /*#__PURE__*/
+   // React.createElement("a", { href: repo, target: "_blank", rel: "noopener noreferrer" }, "View source ", /*#__PURE__*/
+   // React.createElement("i", { className: "fas fa-external-link-alt" })), /*#__PURE__*/
 
     React.createElement("a", { href: link, target: "_blank", rel: "noopener noreferrer" }, "Try it Live ", /*#__PURE__*/
     React.createElement("i", { className: "fab fa-google-play" }))))));
@@ -229,7 +225,7 @@ const Projects = props => {
     React.createElement(Project, {
       title: "Radio FM AM.",
       img: 'https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/radioFmAm.png',
-      tech: "kotlin xml firebase mvvm",
+      tech: "android kotlin xml firebase mvvm",
       link: "https://play.google.com/store/apps/details?id=com.amirami.simapp.radiostations",
       repo: "" }, /*#__PURE__*/
 
@@ -244,7 +240,7 @@ const Projects = props => {
     React.createElement(Project, {
       title: "Prix En Tunisie.",
       img: 'https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/priEnTunisie.png',
-      tech: "android",
+      tech: "android kotlin",
       link: "https://play.google.com/store/apps/details?id=com.amirami.simapp.priceindicatortunisia",
       repo: "" }, /*#__PURE__*/
 
@@ -282,12 +278,12 @@ const Projects = props => {
     React.createElement(Project, {
       title: "Merge pro Caisse Pro Inventory.",
       img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/MetricImperialConverter.jpg',
-      tech: "android",
+      tech: "android kotlin",
       link: "https://yagoestevez-metric-imperial-converter.glitch.me/",
       repo: "https://github.com/yagoestevez/fcc-metric-imperial-converter/" }, /*#__PURE__*/
 
     React.createElement("small", null, "Built using Kotlin, ktor, DaggerHilt and JetPack Librery."), /*#__PURE__*/
-    React.createElement("p", null, "Another full-stack for converting values from the Internation System of Units (Metric) into the imperial units.")))))); /*#__PURE__*/
+    React.createElement("p", null, "Bla bla bla .")))))); /*#__PURE__*/
 
 
 
@@ -328,14 +324,15 @@ const Contact = props => {
 
 
     React.createElement(SocialLinks, null)), /*#__PURE__*/
-
-    React.createElement("form", { id: "contact-form", action: "#" }, /*#__PURE__*/
+//MORE AT https://formsubmit.co/
+    React.createElement("form", { id: "contact-form", action: "https://formsubmit.co/rami.hamdi.2023@gmail.com",method :"POST" }, /*#__PURE__*/
     React.createElement("input", { placeholder: "Name", name: "name", type: "text", required: true }), /*#__PURE__*/
     React.createElement("input", { placeholder: "Email", name: "email", type: "email", required: true }), /*#__PURE__*/
-    React.createElement("textarea", { placeholder: "Message", type: "text", name: "message" }), /*#__PURE__*/
+    React.createElement("textarea", { placeholder: "Message", type: "text", name: "message", required: true }), /*#__PURE__*/
+    React.createElement("textarea", { type: "hidden", name: "_next", value: "#" }), /*#__PURE__*/
+
+
     React.createElement("input", { className: "button", id: "submit", value: "Submit", type: "submit" })))));
-
-
 
 
 };
@@ -369,17 +366,17 @@ const SocialLinks = props => {
   return /*#__PURE__*/(
     React.createElement("div", { className: "social" }, /*#__PURE__*/
     React.createElement("a", {
-      href: "https://twitter.com/yagoestevez",
+      href: "https://play.google.com/store/apps/developer?id=AmiRami",
       target: "_blank",
       rel: "noopener noreferrer",
-      title: "Link to author's Twitter profile" },
+      title: "Link to author's Google Play Store Account" },
 
     ' ', /*#__PURE__*/
-    React.createElement("i", { className: "fab fa-twitter" })), /*#__PURE__*/
+    React.createElement("i", { className: "fab fa-google-play" })), /*#__PURE__*/
 
     React.createElement("a", {
       id: "profile-link",
-      href: "https://github.com/yagoestevez",
+      href: "https://github.com/SimApps",
       target: "_blank",
       rel: "noopener noreferrer",
       title: "Link to author's GitHub Profile" },
@@ -388,13 +385,13 @@ const SocialLinks = props => {
     React.createElement("i", { className: "fab fa-github" })), /*#__PURE__*/
 
     React.createElement("a", {
-      href: "https://codepen.io/yagoestevez",
+      href: "https://www.linkedin.com/in/rami-hamdi-57b371149/",
       target: "_blank",
       rel: "noopener noreferrer",
-      title: "Link to author's Codepen Profile" },
+      title: "Link to author's Linkedin Profile" },
 
     ' ', /*#__PURE__*/
-    React.createElement("i", { className: "fab fa-codepen" }))));
+    React.createElement("i", { className: "fab fa-linkedin" }))));
 
 
 
