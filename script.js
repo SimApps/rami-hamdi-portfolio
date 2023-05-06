@@ -330,8 +330,10 @@ const Contact = props => {
     React.createElement("input", { placeholder: "Email", name: "email", type: "email", required: true }), /*#__PURE__*/
     React.createElement("textarea", { placeholder: "Message", type: "text", name: "message", required: true }), /*#__PURE__*/
     React.createElement("input", { type: "hidden", name: "_next", value: "#" }), /*#__PURE__*/
+    React.createElement("input", { type: "hidden", name: "_captcha", value: false }), /*#__PURE__*/
+    React.createElement("input", { type: "hidden", name: "_autoresponse", value: "We will contact you soon" }), /*#__PURE__*/
 
-
+   
     React.createElement("input", { className: "button", id: "submit", value: "Submit", type: "submit" })))));
 
 
