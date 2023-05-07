@@ -479,8 +479,3 @@ class App extends React.Component {constructor(...args) {super(...args);_defineP
 ReactDOM.render( /*#__PURE__*/React.createElement(App, null), document.getElementById('app'));
 
 
-const name = document.querySelector(".go-home")
-function goHome(){
-  window.open("https://simapps.github.io/ramihamdi");  
-
-}
