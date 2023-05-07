@@ -69,7 +69,9 @@ const Nav = props => {
 /***********************
   Header Component
  ***********************/
-
+  
+  
+  
 const Header = props => {
   return /*#__PURE__*/(
     React.createElement("header", { id: "welcome-section" }, /*#__PURE__*/
@@ -85,8 +87,19 @@ const Header = props => {
 
 
     React.createElement("div", { className: "buttons" }, /*#__PURE__*/
+    React.createElement("a", { href: "#contact", className: "cta" }, "get in touch"),
     React.createElement("a", { href: "#projects" }, "my portfolio"), /*#__PURE__*/
-    React.createElement("a", { href: "#contact", className: "cta" }, "get in touch")))));
+    React.createElement(
+      'a',
+      {
+        href: 'https://simapps.github.io/ramihamdi/cv/RamiHamdiCV.pdf',
+        download: 'RamiHamdiCV.pdf'
+      },
+      'Download'
+    ) /*#__PURE__*/
+
+    
+    ))));
 
 
 
