@@ -89,14 +89,11 @@ const Header = props => {
     React.createElement("div", { className: "buttons" }, /*#__PURE__*/
     React.createElement("a", { href: "#contact", className: "cta" }, "get in touch"),
     React.createElement("a", { href: "#projects" }, "my portfolio"), /*#__PURE__*/
-    React.createElement(
-      'a',
-      {
+    React.createElement( 'a', {
         href: 'https://simapps.github.io/ramihamdi/cv/RamiHamdiCV.pdf',
-        download: 'RamiHamdiCV.pdf'
-      },
-      'Download'
-    ) /*#__PURE__*/
+        download: 'RamiHamdiCV.pdf',
+        target: '_blank'
+    },'My CV'  ) /*#__PURE__*/
 
     
     ))));
