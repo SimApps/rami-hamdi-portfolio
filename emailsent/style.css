@@ -48,7 +48,7 @@
     text-transform:capitalize;
     box-shadow: 0 10px 16px 1px rgba(174, 199, 251, 1);
   }
-  .footer-like{
+  /*.footer-like{
     margin-top: auto; 
     background:#D7E6FE;
     padding:6px;
@@ -65,7 +65,7 @@
     text-decoration:none;
     color:#5892FF;
     font-weight:600;
-  }
+  }*/
   
   @media (min-width:360px){
     h1{
