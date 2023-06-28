@@ -236,13 +236,13 @@ const Projects = props => {
       title: "Radio FM AM.",
       img: 'https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/radioFmAm.png',
       tech: "android kotlin xml firebase mvvm",
-     // link: "https://play.google.com/store/apps/details?id=com.amirami.simapp.radiostations",
-      href: 'https://simapps.github.io/ramihamdi/apk/radio-fm-am.apk',
+     link: "https://simapps.github.io/ramihamdi/apk/radio-fm-am.apk",
+    //  href: 'https://simapps.github.io/ramihamdi/apk/radio-fm-am.apk',
       download: 'radio-fm-am.apk',
       target: '_blank',
       repo: "" }, /*#__PURE__*/
 
-      
+    
 
     React.createElement("small", null, "Built using Kotlin and xml."), /*#__PURE__*/
 
