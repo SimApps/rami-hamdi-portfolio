@@ -236,15 +236,20 @@ const Projects = props => {
       title: "Radio FM AM.",
       img: 'https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/radioFmAm.png',
       tech: "android kotlin xml firebase mvvm",
-      link: "https://play.google.com/store/apps/details?id=com.amirami.simapp.radiostations",
+     // link: "https://play.google.com/store/apps/details?id=com.amirami.simapp.radiostations",
+      href: 'https://simapps.github.io/ramihamdi/apk/radio-fm-am.apk',
+      download: 'radio-fm-am.apk',
+      target: '_blank',
       repo: "" }, /*#__PURE__*/
+
+      
 
     React.createElement("small", null, "Built using Kotlin and xml."), /*#__PURE__*/
 
 
     React.createElement("p", null, "This application is a great tool to play Radio stations around the world. It also gives the user the ability to record radio station streams and also from custom URL, work as an alarm radio to wake users on their  favorite Radio station, and synchronize favorite stations between different devices..")), /*#__PURE__*/
 
-
+   
 
 
     React.createElement(Project, {
