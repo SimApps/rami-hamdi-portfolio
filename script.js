@@ -292,13 +292,15 @@ const Projects = props => {
 
     React.createElement(Project, {
       title: "Merge pro Caisse Pro Inventory.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/MetricImperialConverter.jpg',
+     /* img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/MetricImperialConverter.jpg',
       tech: "android kotlin",
       link: "https://yagoestevez-metric-imperial-converter.glitch.me/",
-      repo: "https://github.com/yagoestevez/fcc-metric-imperial-converter/" }, /*#__PURE__*/
+      repo: "https://github.com/yagoestevez/fcc-metric-imperial-converter/"*/
+     }, 
+      /*#__PURE__*/
 
     React.createElement("small", null, "Built using Kotlin, ktor, DaggerHilt, MVVM architecture and JetPack compose."), /*#__PURE__*/
-    React.createElement("p", null, "Bla bla bla .")))))); /*#__PURE__*/
+    React.createElement("p", null, "")))))); /*#__PURE__*/
 
 
 
