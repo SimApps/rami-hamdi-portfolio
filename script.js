@@ -125,7 +125,9 @@ const About = props => {
 
 
 
-    React.createElement("p", null, "I am committed to continuous learning and eager to contribute to the Master's program in Advanced Engineering of Robotic Systems and Artificial Intelligence.")), /*#__PURE__*/
+    //React.createElement("p", null, "I am committed to continuous learning and eager to contribute to the Master's program in Advanced Engineering of Robotic Systems and Artificial Intelligence.")
+    
+    ), /*#__PURE__*/
 
 
 
@@ -292,7 +294,7 @@ const Projects = props => {
 
     React.createElement(Project, {
       title: "Merge pro Caisse Pro Inventory.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/asm-googleplay.png',
+      img: 'https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/asm-googleplay.png',
       tech: "android kotlin",
       link: "https://play.google.com/store/apps/developer?id=ASM+MOBILE",
       repo: "https://play.google.com/store/apps/developer?id=ASM+MOBILE"
