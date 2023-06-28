@@ -121,11 +121,11 @@ const About = props => {
 
     React.createElement("div", { className: "desc full" }, /*#__PURE__*/
     React.createElement("h4", { className: "subtitle" }, "My name is Rami."), /*#__PURE__*/
-    React.createElement("p", null, "I am an android developer, always follow best practices for android application and I am always ready to learn new technologies, methods, and principle as per the project requirements."), /*#__PURE__*/
+    React.createElement("p", null, "Highly motivated and ambitious, I am a technology enthusiast with an expertise in Android development using Java and Kotlin. With five years of experience as a Navy officer, I possess excellent leadership, discipline, and teamwork skills."), /*#__PURE__*/
 
 
 
-    React.createElement("p", null, "I really enjoy solving problems as well as making things pretty and easy to use. I can't stop learning new things; the more, the better. I also have a master degree in qhse, a hobby I'm taking along since the good old film cameras.")), /*#__PURE__*/
+    React.createElement("p", null, "I am committed to continuous learning and eager to contribute to the Master's program in Advanced Engineering of Robotic Systems and Artificial Intelligence.")), /*#__PURE__*/
 
 
 
@@ -137,8 +137,8 @@ const About = props => {
     React.createElement("p", { className: "separator" })), /*#__PURE__*/
 
     React.createElement("div", { className: "desc" }, /*#__PURE__*/
-    React.createElement("h4", { className: "subtitle" }, "I'm a programmer."), /*#__PURE__*/
-    React.createElement("p", null, "For the front-end I usually work with Javascript, either standalone or including popular frameworks like ReactJS and VueJS. I also make the web pretty by using Sass, CSS and, whenever needed, any of their friends: Bootstrap, Bulma, etc."), /*#__PURE__*/
+    React.createElement("h4", { className: "subtitle" }, "I'm a Special Forces Officer in the Navy."), /*#__PURE__*/
+    React.createElement("p", null, "During my five years of service as a Special Forces Officer in the Navy, I have honed a unique set of skills that have shaped me into a versatile and effective professional. My experience in this role has provided me with valuable attributes that are transferable to various domains."), /*#__PURE__*/
 
 
 
@@ -149,8 +149,8 @@ const About = props => {
 
 
     React.createElement("div", { className: "desc" }, /*#__PURE__*/
-    React.createElement("h4", { className: "subtitle" }, "Also a designer."), /*#__PURE__*/
-    React.createElement("p", null, "I feel comfortable working with many Adobe products. Photoshop, Illustrator, InDesign, Lightroom or Xd are some kind of industry standards and I love working with them. I'm not limited to them, though: Gimp, Inkscape or Figma are also very valid applications that I've been working with."), /*#__PURE__*/
+    React.createElement("h4", { className: "subtitle" }, "Also an Android Developper."), /*#__PURE__*/
+    React.createElement("p", null, "With four years of self-taught experience in Android development, I have acquired a comprehensive skill set that encompasses various aspects of the field. My proficiency in Java and Kotlin, coupled with my knowledge of modern development practices, positions me as a capable and adaptable Android developer."), /*#__PURE__*/
 
 
 
