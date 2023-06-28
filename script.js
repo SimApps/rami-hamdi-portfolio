@@ -292,10 +292,10 @@ const Projects = props => {
 
     React.createElement(Project, {
       title: "Merge pro Caisse Pro Inventory.",
-     /* img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/MetricImperialConverter.jpg',
+      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/MetricImperialConverter.jpg',
       tech: "android kotlin",
       link: "https://yagoestevez-metric-imperial-converter.glitch.me/",
-      repo: "https://github.com/yagoestevez/fcc-metric-imperial-converter/"*/
+      repo: "https://github.com/yagoestevez/fcc-metric-imperial-converter/"
      }, 
       /*#__PURE__*/
 
