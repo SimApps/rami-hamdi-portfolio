@@ -292,15 +292,15 @@ const Projects = props => {
 
     React.createElement(Project, {
       title: "Merge pro Caisse Pro Inventory.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/MetricImperialConverter.jpg',
+      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/asm-googleplay.png',
       tech: "android kotlin",
       link: "https://play.google.com/store/apps/developer?id=ASM+MOBILE",
       repo: "https://play.google.com/store/apps/developer?id=ASM+MOBILE"
      }, 
       /*#__PURE__*/
-
+      
     React.createElement("small", null, "Built using Kotlin, ktor, DaggerHilt, MVVM architecture and JetPack compose."), /*#__PURE__*/
-    React.createElement("p", null, "")))))); /*#__PURE__*/
+    React.createElement("p", null, "In Progress . . . ")))))); /*#__PURE__*/
 
 
 
