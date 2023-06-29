@@ -258,7 +258,9 @@ const Projects = props => {
       title: "Prix En Tunisie.",
       img: 'https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/priEnTunisie.png',
       tech: "android kotlin",
-      link: "https://play.google.com/store/apps/details?id=com.amirami.simapp.priceindicatortunisia",
+      link: "https://simapps.github.io/ramihamdi/apk/prix_tunisie.apk",
+      download: 'radio-fm-am.apk',
+      target: '_blank',
       repo: "" }, /*#__PURE__*/
 
     React.createElement("small", null, "Initialy Built using Kotlin and xml for ui, then migrated to jetpack Compose."), /*#__PURE__*/
