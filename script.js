@@ -90,7 +90,7 @@ const Header = props => {
     React.createElement("a", { href: "#contact", className: "cta" }, "get in touch"),
     React.createElement("a", { href: "#projects" }, "my portfolio"), /*#__PURE__*/
     React.createElement( 'a', {
-        href: 'https://simapps.github.io/ramihamdi/cv/RamiHamdiCV.pdf',
+        href: 'https://simapps.github.io/rami-hamdi-portfolio/cv/RamiHamdiCV.pdf',
         download: 'RamiHamdiCV.pdf',
         target: '_blank'
     },'My CV'  ) /*#__PURE__*/
@@ -238,10 +238,10 @@ const Projects = props => {
     React.createElement("div", { className: "projects-wrapper" }, /*#__PURE__*/
     React.createElement(Project, {
       title: "Radio FM AM.",
-      img: 'https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/radioFmAm.png',
+      img: 'https://raw.githubusercontent.com/SimApps/rami-hamdi-portfolio/main/images/radioFmAm.png',
       tech: "android kotlin xml firebase mvvm",
-     link: "https://simapps.github.io/ramihamdi/apk/radio-fm-am.apk",
-    //  href: 'https://simapps.github.io/ramihamdi/apk/radio-fm-am.apk',
+     link: "https://simapps.github.io/rami-hamdi-portfolio/apk/radio-fm-am.apk",
+    //  href: 'https://simapps.github.io/rami-hamdi-portfolio/apk/radio-fm-am.apk',
       download: 'radio-fm-am.apk',
       target: '_blank',
       repo: "" }, /*#__PURE__*/
@@ -258,9 +258,9 @@ const Projects = props => {
 
     React.createElement(Project, {
       title: "Prix En Tunisie.",
-      img: 'https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/priEnTunisie.png',
+      img: 'https://raw.githubusercontent.com/SimApps/rami-hamdi-portfolio/main/images/priEnTunisie.png',
       tech: "android kotlin",
-      link: "https://simapps.github.io/ramihamdi/apk/prix_tunisie.apk",
+      link: "https://simapps.github.io/rami-hamdi-portfolio/apk/prix_tunisie.apk",
       download: 'radio-fm-am.apk',
       target: '_blank',
       repo: "" }, /*#__PURE__*/
@@ -275,7 +275,7 @@ const Projects = props => {
 
     React.createElement(Project, {
       title: "Pro Inventory.",
-      img: 'https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/Inventory.png',
+      img: 'https://raw.githubusercontent.com/SimApps/rami-hamdi-portfolio/main/images/Inventory.png',
       tech: "android java",
       link: "https://play.google.com/store/apps/details?id=com.asmtunis.proinventory",
       repo: "" }, /*#__PURE__*/
@@ -288,7 +288,7 @@ const Projects = props => {
 
     React.createElement(Project, {
       title: "Pro Caisse Mobility.",
-      img: 'https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/ProCaisseMobility.png',
+      img: 'https://raw.githubusercontent.com/SimApps/rami-hamdi-portfolio/main/images/ProCaisseMobility.png',
       tech: "android java",
       link: "https://play.google.com/store/apps/details?id=com.asmtunis.procaissemobility",
       repo: "" }, /*#__PURE__*/
@@ -298,7 +298,7 @@ const Projects = props => {
 
     React.createElement(Project, {
       title: "Merge pro Caisse Pro Inventory.",
-      img: 'https://raw.githubusercontent.com/SimApps/ramihamdi/main/images/asm-googleplay.png',
+      img: 'https://raw.githubusercontent.com/SimApps/rami-hamdi-portfolio/main/images/asm-googleplay.png',
       tech: "android kotlin",
       link: "https://play.google.com/store/apps/developer?id=ASM+MOBILE",
       repo: "https://play.google.com/store/apps/developer?id=ASM+MOBILE"
@@ -352,7 +352,7 @@ const Contact = props => {
     React.createElement("input", { placeholder: "Name", name: "name", type: "text", required: true }), /*#__PURE__*/
     React.createElement("input", { placeholder: "Email", name: "email", type: "email", required: true }), /*#__PURE__*/
     React.createElement("textarea", { placeholder: "Message", type: "text", name: "message", required: true }), /*#__PURE__*/
-      React.createElement("input", { className: "_next", type: "hidden", name: "_next", value: "https://simapps.github.io/ramihamdi/emailsent" }), /*#__PURE__*/
+      React.createElement("input", { className: "_next", type: "hidden", name: "_next", value: "https://simapps.github.io/rami-hamdi-portfolio/emailsent" }), /*#__PURE__*/
   
      React.createElement("input", { className: "_captcha", type: "hidden", name: "_captcha", value: false }), /*#__PURE__*/
     React.createElement("input", { className: "_autoresponse", type: "hidden", name: "_autoresponse", value: "We will contact you soon" }), /*#__PURE__*/
