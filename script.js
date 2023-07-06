@@ -121,7 +121,7 @@ const About = props => {
 
     React.createElement("div", { className: "desc full" }, /*#__PURE__*/
     React.createElement("h4", { className: "subtitle" }, "My name is Rami."), /*#__PURE__*/
-    React.createElement("p", null, "Highly motivated and ambitious, I am a technology enthusiast with an expertise in Android development using Java and Kotlin. With five years of experience as a Navy officer, I possess excellent leadership, discipline, and teamwork skills."), /*#__PURE__*/
+    React.createElement("p", null, "Highly motivated and ambitious, I am a technology enthusiast with an expertise in Android development using Java and Kotlin. With seven years of experience as a Navy officer, I possess excellent leadership, discipline, and teamwork skills."), /*#__PURE__*/
 
 
 
@@ -139,11 +139,11 @@ const About = props => {
     React.createElement("p", { className: "separator" })), /*#__PURE__*/
 
     React.createElement("div", { className: "desc" }, /*#__PURE__*/
-    React.createElement("h4", { className: "subtitle" }, "I'm a Special Forces Officer in the Navy."), /*#__PURE__*/
-    React.createElement("p", null, "During my five years of service as a Special Forces Officer in the Navy, I have honed a unique set of skills that have shaped me into a versatile and effective professional. My experience in this role has provided me with valuable attributes that are transferable to various domains."), /*#__PURE__*/
+    React.createElement("h4", { className: "subtitle" }, "Former Navy Special Forces Officer."), /*#__PURE__*/
+    React.createElement("p", null, "During my seven years of service, I have honed an unique set of skills that have shaped me into a versatile and effective professional. My experience in this role has provided me with valuable attributes that are transferable to various domains. "), /*#__PURE__*/
 
 
-
+//I am a quick learner and have strong logical reasoning skills. Once I am given a task, I am dedicated to completing it. I am both an excellent team player and a capable team leader. I enjoy taking on challenges.
 
    //React.createElement("p", null, "For the back-end I also work with Javascript (NodeJS, Express, MongoDB, etc). But, of course, whenever the project requires PHP, I do PHP as well (Wordpress, Laravel, etc).")µ
    ), /*#__PURE__*/
@@ -153,13 +153,13 @@ const About = props => {
 
     React.createElement("div", { className: "desc" }, /*#__PURE__*/
     React.createElement("h4", { className: "subtitle" }, "Also an Android Developper."), /*#__PURE__*/
-    React.createElement("p", null, "With four years of self-taught experience in Android development, I have acquired a comprehensive skill set that encompasses various aspects of the field. My proficiency in Java and Kotlin, coupled with my knowledge of modern development practices, positions me as a capable and adaptable Android developer."), /*#__PURE__*/
+    React.createElement("p", null, "Self-taught Android developer, always follow best practices for android application and I am always ready to learn new technologies, methods, and principle as per the project requirements."), /*#__PURE__*/
 
 
 
 
 
-   // React.createElement("p", null, "User interfaces, brochures, books, branding... You name it! As I mentioned, creating pretty things is particularly important for me.")
+  React.createElement("p", null, "Currently employed with All Soft Multimedia as an android developper. My work there primarily focuses on development of the two Android apps.")
     )))));
 
 
